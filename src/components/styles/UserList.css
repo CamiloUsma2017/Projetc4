@@ -1,0 +1,10 @@
+.userList{
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1400px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}

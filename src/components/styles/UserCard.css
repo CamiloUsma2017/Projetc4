@@ -1,0 +1,110 @@
+.userCard{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 20px 20px 10px 20px;
+  max-width: 380px;
+  width: 350px;
+  min-height: 274px;
+}
+
+h3.userCard__fullName{
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  width: 250px;
+  text-align: center;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+  h3.userCard__fullName{
+    width: 100%;
+  }  
+}
+
+.userCard__separator{
+  height: 0.5px;
+  width: 100%;
+  color: #E5E5E5;
+}
+
+.userCard__list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.userCard__item{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 16px;
+}
+
+.userCard__item  span{
+  text-transform: uppercase;
+  color: #D3D3D3;
+}
+
+.userCard__item-icon{
+  font-size: 20px;
+}
+
+.userCard__item > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.userCard__item-img{
+  height: 25px;
+  width: 25px;
+}
+
+.userCard__footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.userCard__footer-btn-trash {
+  width: 43px;
+  height: 43px;
+  font-size: 22px;
+  color: white;
+  background-color: #D85D5D;
+  border: 1px solid #D93F3F;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.userCard__footer-btn-trash:hover{
+  background-color: #D93F3F ;
+  border: 1px solid  #D85D5D;
+}
+
+.userCard__footer-btn-edit {
+  width: 43px;
+  height: 43px;
+  font-size: 22px;
+  color: rgb(114, 114, 114);
+  background-color: #F6F6F6;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.userCard__footer-btn-edit:hover{
+  border: 1px solid black;
+  color: rgb(46, 46, 46);
+}
+
